@@ -1,0 +1,15 @@
+<div>
+  <h1>
+    {{title}}
+  </h1>
+  <ul>
+    <li *ngFor="let i of arrData;let idx = index;" (click)="fn(idx)">
+      {{i}}
+    </li>
+  </ul>
+  <p>
+    {{num}}
+  </p>
+  <button (click)="click()">click</button>
+  <ng-content select=".box"></ng-content>
+</div>
