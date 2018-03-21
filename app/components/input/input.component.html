@@ -1,0 +1,8 @@
+<style>
+  input{
+    margin-top: 25px;
+  }
+</style>
+<label for="one" style="color:#E0E0E0;margin-right:30px;font-size:20px;">ToDoList</label>
+<input type="text" id="one" placeholder="添加数据" [(ngModel)]="content" (keyup)="keyData($event)"/>
+<button (click)="addData()">添加数据</button>
