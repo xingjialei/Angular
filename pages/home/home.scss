@@ -1,0 +1,115 @@
+page-home {
+
+    /*.ion-ios-home:before {
+        content: "\f448";
+        color: #fedb47;
+    }*/
+
+    .tabs .tab-button-icon::before {
+        vertical-align: top;
+        color: red;
+    }
+
+    ion-header .img1{
+        height: 60px;
+        margin-left: 34%;
+    }
+    
+    /*.header-ios .toolbar-ios:last-child .toolbar-background-ios {
+        background-color: #fedb47;
+    }*/
+
+    .navbar div{
+        background-color: #fedb47;
+    }
+
+    .segment-ios-yel .segment-button {
+        border: none;
+        border-bottom: 1px solid #999999;
+        color: #999999;
+    }
+
+    .segment-ios-yel .segment-button.segment-activated {
+        color: #fedb47;
+        border: none;
+        border-bottom: 2px solid #fedb47; 
+        background-color: white;
+    }
+
+    .toolbar ion-icon::before{
+        color:black;
+    }
+
+    .slide{
+        height: 30%;
+    }
+    .segment-md .segment-button{
+        color: #999999;
+        font-size: 20px;
+        font-family: '黑体';
+    }
+    .segment-md .segment-button.segment-activated {
+        border-color: #fedb47;
+        color: #fedb47;
+    }
+
+    .list {
+        margin: -1px 0px 2px;
+    }
+
+    .col{
+        border: 1px solid #e5e5e5;
+        text-align: center;
+    }
+    .col img{
+        margin-top: 10px;
+        width: 30px;
+    }
+
+    .label-md img{
+        width: 30px;
+    }
+
+    .item p {
+        margin: 0px 5px 2px;
+        overflow: inherit;
+        font-size: 2rem;
+        line-height: normal;
+        text-overflow: inherit;
+        color: #666;
+        display: inline-block;
+        font-family: '黑体';
+    }
+
+    ion-label {
+        font-size: 15px;
+        color: #41210f;
+    }
+
+    .item-info{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .item-info span{
+        color: #999999;
+    }
+    .item-info h1{
+        color: #c01444;
+    }
+
+    .tabs .tab-button-text {
+        margin-top: 0;
+        margin-bottom: 1px;
+        min-height: 11px;
+        color: black;
+    }
+    /*ion-icon::before {
+        display: inline-block;
+        color: #fedb47;
+        //color:black;
+    }*/
+    /*.tabs-ios .tab-button-icon::before {
+        vertical-align: top;
+        color: red;
+    }*/
+}

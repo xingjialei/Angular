@@ -1,0 +1,52 @@
+page-user-publish {
+    .list {
+        margin: -1px 0px 2px;
+    }
+
+    .col{
+        border: 1px solid #e5e5e5;
+        text-align: center;
+    }
+    .col img{
+        margin-top: 10px;
+        width: 30px;
+    }
+
+    .label-md img{
+        width: 30px;
+    }
+
+    .item p {
+        margin: 0px 5px 2px;
+        overflow: inherit;
+        font-size: 2rem;
+        line-height: normal;
+        text-overflow: inherit;
+        color: #666;
+        display: inline-block;
+        font-family: '黑体';
+    }
+
+    ion-label {
+        font-size: 15px;
+        color: #41210f;
+    }
+
+    .item-info{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .item-info span{
+        color: #999999;
+    }
+    .item-info h1{
+        color: #c01444;
+    }
+
+    .tabs .tab-button-text {
+        margin-top: 0;
+        margin-bottom: 1px;
+        min-height: 11px;
+        color: black;
+    }
+}
