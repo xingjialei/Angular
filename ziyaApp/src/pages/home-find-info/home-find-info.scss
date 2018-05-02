@@ -1,0 +1,71 @@
+page-home-find-info {
+    .toolbar-background{
+        background: #fedb47;
+    }
+
+    ion-header{
+        background: #fedb47;
+    }
+
+    .searchbar{
+        background: none;
+    }
+
+    .content{
+        background: #f9f9f9;
+    }
+
+    .grid{
+        margin-bottom: 12px;
+        background: white;
+    }
+
+    [col-4]{
+        height: 30px;
+        border-right: 1px solid black;
+    }
+
+    #special{
+        border: none;
+    }
+
+    .special{
+        width: 50px!important;
+        margin-left: 30px!important;
+    }
+
+    .label[stacked]{
+        width: 82px;
+        margin-bottom: 4px;
+        font-size: 2rem;
+        margin: -3px 0px 11px 7px;
+        float: left;
+        text-align: center;
+    }
+
+    .select{
+        width: 20px;
+        display: inline-block;
+        margin-top: -10px;
+        padding-left: 2px;
+        display: absolute;
+    }
+
+    .list{
+        margin: -1px 0 16px;
+    }
+
+    .item-info{
+        display: inline-block;
+        margin-left: 3px;
+    }
+
+    .item-info span{
+        color: #999999;
+    }
+
+    .item-info h1{
+        color: #c01444;
+    }
+
+}

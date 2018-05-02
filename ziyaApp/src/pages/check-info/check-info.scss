@@ -1,0 +1,54 @@
+page-check-info {
+    .toolbar-background{
+        background: #fedb47;
+    }
+
+    .content{
+        background-color: #eeeeee;
+    }
+
+    /*img{
+        width: 20%;
+        border-radius: 50%;
+    }*/
+    img{
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .user{
+        width: 100%;
+        float: right;
+        margin-top: 20px;
+    }
+
+    .friend{
+        width: 100%;
+        float: left;
+    }
+
+    .row{
+        margin-top: 15px;
+    }
+
+    [col-10] {
+        border-radius: 10px;
+    }
+
+    .user [col-10]{
+        background-color: #fedb47;
+    }
+
+    .friend [col-10]{
+        background-color: white;
+    }
+
+    ion-footer{
+        background-color: white;
+    }
+
+    ion-input.input{
+        display: inline-block;
+        width: 58%;
+    }
+}

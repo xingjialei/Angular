@@ -1,0 +1,46 @@
+page-about-info {
+    .toolbar-background{
+        background: #fedb47;
+    }
+
+    .content{
+        background-color: #f9f9f9;
+    }
+
+    .item{
+        border-top: 0.55px solid #c8c7cc;
+    }
+
+    .list .item-block .item-inner {
+        border-bottom: none;
+    }
+
+    .item .item-block .item-inner {
+        padding-right: 8px;
+        padding-right: 8px;
+        border-bottom: none;
+    }
+
+    #special{
+        height: 140px;
+    }
+
+    #img1{
+        width: 23px;
+        height: 27px;
+    }
+
+    #img2{
+        height: 25px;
+        width: 28px;
+        margin-left: 25px;
+    }
+
+    textarea {
+        overflow: auto;
+        height: auto;
+        font: inherit;
+        color: inherit;
+        border: 1px solid #c8c7cc;
+    }
+}

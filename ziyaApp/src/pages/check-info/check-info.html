@@ -1,0 +1,56 @@
+<!--
+  Generated template for the CheckInfoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ title }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <!--
+  <div class="friend">
+    <img src='{{ img }}'>
+  </div>
+  <div class="user">
+    <img src="assets/imgs/check/user.jpg" style="float:right;">
+  </div>
+-->
+  <ion-grid>
+      <ion-row class="friend">
+        <ion-col col-2>
+          <img src='{{ img }}'>
+        </ion-col>
+        <ion-col col-10>
+          您好，什么是不良资产
+        </ion-col>
+      </ion-row>
+      <ion-row class="user">
+          <ion-col col-10>
+            您好，不良资产是指企业的资产尚未处理清楚
+          </ion-col>
+          <ion-col col-2>
+            <img src="assets/imgs/check/user.jpg">
+          </ion-col>
+        </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer>
+    <button ion-button color="wlght" icon-only>
+        <ion-icon name='volume-up'></ion-icon>
+    </button>
+    <ion-input type="text" value="" placeholder="请输入聊天内容..." style="display:inline-block"></ion-input>
+    <button ion-button color="wlght" icon-only>
+        <ion-icon name='happy'></ion-icon>
+      </button>
+    <button ion-button color="wlght" icon-only>
+        <ion-icon name='arrow-down'></ion-icon>
+    </button>
+</ion-footer>

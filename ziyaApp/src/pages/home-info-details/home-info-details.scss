@@ -1,0 +1,57 @@
+page-home-info-details {
+    .toolbar-background{
+        background: #fedb47!important;
+    }
+
+    .content{
+        background: #f9f9f9!important;
+    }
+
+    .list{
+        margin: -1px 0 18px;
+    }
+
+    .special{
+        height:25px;
+    }
+
+    .grid{
+        width: 85%;
+        float: left;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    .one{
+        color: grey;
+    }
+
+    .two{
+        color: #cc0033;
+    }
+
+    textarea {
+        border: none!important;
+        width: 100%;
+        height: 100px;
+        resize: none;
+    }
+
+    img{
+        width:40px;
+        border-radius: 50%;
+    }
+
+    .button{
+        width: 35%!important;
+        border-radius: 0;
+        height: 2.8em;
+        font-size: 1.6rem;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+}

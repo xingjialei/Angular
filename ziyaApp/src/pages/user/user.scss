@@ -1,0 +1,45 @@
+page-user {
+    ion-title{
+        font-family: '黑体';
+        font-weight: 200;
+    }
+
+    #user-img{
+        width: 85px;
+        border-radius: 50%;
+        height: 85px;
+    }
+
+    .sec-title{
+        color: #d6d6d6!important;
+        font-size:10px;
+    }
+
+    .tir-title{
+        color: #999999;
+    }
+
+    .toolbar-background{
+        background: #fedb47;
+    }
+
+    #button{
+        width: 90px;
+        margin-left: 70%;
+        border: 1px solid #fedb47;
+        color: #fedb47;
+        
+    }
+
+    .content{
+        background-color: beige;
+    }
+
+    #list{
+        margin-top: -18px;
+    }
+
+    #group{
+        margin-top: -18px;
+    }
+}

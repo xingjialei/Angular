@@ -1,0 +1,110 @@
+page-home-info {
+    .toolbar-background{
+        background: #fedb47;
+    }
+
+    .content{
+        background: #f9f9f9;
+    }
+
+    .segment-md-yel .segment-button.segment-activated {
+        border-color: #fedb47;
+        color: #fedb47;
+        opacity: 1;
+        background: white;
+    }
+
+    .segment-ios-yel .segment-button.segment-activated {
+        color: #000;
+        background-color: white;
+    }
+
+    .toolbar .searchbar .searchbar-input {
+        background: white!important;
+    }
+
+    img {
+        max-width: 100%;
+        width: 25%;
+        border: 0;
+        float: left;
+    }
+
+    .toolbar .searchbar{
+        border-bottom-width: 0;
+        background: transparent;
+        width: 75%;
+    }
+
+    .toolbar-background{
+        border-style: none!important;
+        border-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .grid{
+        background: white;
+    }
+
+    .col{
+        border: 1px solid #e5e5e5;
+        text-align: center;
+    }
+
+    .col img {
+        margin-top: 5px;
+        width: 30px;
+        height: 30px;
+        margin-left: 33%;
+    }
+
+    .col p{
+        margin-top: 55%;
+        font-size: 1.7rem;
+    }
+
+    .list{
+        margin: -1px 0 12px;
+    }
+
+    ion-segment {
+        height: 48px;
+    }
+
+    .item-ios p {
+        font-size: 1.4rem;
+        color: #8e9093;
+        margin: 6px 7px 7px 5px;
+        padding-left: 15px;
+    }
+
+    .label img{
+        width: 30px;
+    }
+
+    .item p {
+        margin: 0px 5px 2px;
+        overflow: inherit;
+        font-size: 1.7rem;
+        line-height: normal;
+        text-overflow: inherit;
+        color: #666;
+        display: inline-block;
+        font-family: '黑体';
+    }
+
+    ion-label {
+        font-size: 15px;
+        color: #41210f;
+    }
+
+    .item-info{
+        display: inline-block;
+        margin-left: 3px;
+    }
+    .item-info span{
+        color: #999999;
+    }
+    .item-info h1{
+        color: #c01444;
+    }
+}

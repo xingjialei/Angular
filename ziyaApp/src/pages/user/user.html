@@ -1,0 +1,52 @@
+<!--
+  Generated template for the UserPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-toolbar class="toolbar">
+<!--     <ion-buttons start>
+      <button ion-button icon-only menuToggle color="black">
+        <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons> -->
+    <ion-title>我的</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content >
+  <ion-list no-lines>
+    <ion-item>
+        <button ion-button color="wlght" round id="button">编辑资料</button>
+        <ion-title text-center>
+          <img src="assets/imgs/user/logo.png" id="user-img">
+        </ion-title>
+        <ion-title text-center>张扬</ion-title>
+        <ion-title text-center class="sec-title">北京市 | 海淀区</ion-title>
+        <ion-title text-center class="tir-title">北京资芽网络科技有限公司</ion-title>
+    </ion-item>
+  </ion-list>
+
+  <ion-list id="list">
+
+      <button ion-item *ngFor="let item of items" (click)="getValue(item.id)">
+          <ion-avatar item-start>
+              <img src='{{ item.img }}'>
+          </ion-avatar>
+          {{ item.title }}
+      </button>
+      
+  </ion-list>
+
+    <ion-item-group id="group">
+      <button ion-item *ngFor="let item2 of item2" (click)="getValue(item)">
+          <ion-avatar item-start>
+              <img src='{{ item2.img }}'>
+            </ion-avatar>
+        {{ item2.title }}
+      </button>
+    </ion-item-group>
+
+</ion-content>

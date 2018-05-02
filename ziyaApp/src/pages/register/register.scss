@@ -1,0 +1,68 @@
+page-register {
+    .navbar div{
+        background-color: transparent;
+    }
+
+    .header .toolbar-background, .footer .toolbar-background {
+        border: none;
+        background-color: transparent;
+    }
+
+    .toolbar-background{
+        background: transparent;
+        border: none;
+    }
+
+    .toolbar-title{
+        padding: 0 65px;
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: white;
+    }
+
+    #body{
+        background-image: url('../../assets/imgs/login-bgd.png'); 
+    }
+
+    .toolbar-title {
+        padding: 0 30%;
+        font-size: 1.5rem;
+        font-weight: 300;
+        font-family: '黑体';
+        color: #fff;
+    }
+
+    ion-list{
+        margin-top: 10px;
+        display: block;
+        list-style-type: none;
+        padding: 65px 0px;
+    }
+
+    .text-input{
+        margin: 11px 8px 11px 0;
+        padding: 0;
+        width: calc(100% - 8px);
+        font-size: 1.5rem;
+        border-bottom: 1px solid white;
+    }
+
+    .item .item-button {
+        padding: 0 0.6em;
+        height: 35px;
+        font-size: 1.5rem;
+        width: 99%;
+        font-family: '黑体';
+    }
+
+    .special{
+        margin-top: 5px;
+    }
+    
+    .item-block{
+        background-color: transparent;
+    }
+}
